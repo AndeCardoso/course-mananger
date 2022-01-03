@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'course-manager';
+
+  label: string = "Informe seu nome:";
+  name: string = "";
 }
